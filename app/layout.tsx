@@ -3,6 +3,7 @@ import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import { NextAppDirEmotionCacheProvider } from 'tss-react/next/appDir';
 import { theme } from '@/lib/theme';
 import '@mantine/core/styles.css';
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: 'Mantine V7 Nextjs 14 with TSS',

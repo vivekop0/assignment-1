@@ -1,5 +1,7 @@
-import { HomePage } from '@/components/HomePage';
+import Hero from "@/components/Hero";
 
 export default function Home() {
-  return <HomePage />;
+  return <div>
+    <Hero/>
+  </div>
 }
